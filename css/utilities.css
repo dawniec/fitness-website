@@ -1,0 +1,50 @@
+.white-txt
+{
+    color: white;
+}
+
+.grid-column-3
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+}
+
+
+
+.grid-column-2
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/*
+
+}
+
+.grid-column-4
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+.orange-btn
+{
+    background-color: #cc3c04;
+}
+
+.gray-btn
+{
+    background-color: #7b8284;
+}
+
+.black-btn
+{
+    background-color: #040404;
+}
+
+.black-btn :hover
+{
+    background-color: #290c00;
+}
